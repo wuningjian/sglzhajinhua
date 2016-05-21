@@ -1,0 +1,78 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/mainScene.js",
+        "src/pomelo-cocos2d-js.js",
+        "src/gateRequest.js",
+        "src/gameScene.js",
+        "src/gameProcess.js",
+        "src/util/Servers.js",
+        "src/util/Storage.js",
+        "src/util/utils.js",
+        "src/util/Consts.js",
+
+        "src/loadGame/LoadGame.js",
+
+        "src/lobby/UserInfo.js",
+        "src/lobby/AddCoinLayer.js",
+        "src/lobby/AvatarInfoLayer.js",
+        "src/lobby/EditNameLayer.js",
+        "src/lobby/EditSigLayer.js",
+        "src/lobby/LobbyInfoLayer.js",
+        "src/lobby/UserBaseInfoLayer.js",
+
+        "src/store/Store.js",
+        "src/store/StoreMainLayer.js",
+        "src/store/StorePage.js",
+        "src/store/PageMark.js",
+        "src/store/BuyItemLayer.js",
+
+        "src/freeBonus/QiandaoLayer.js",
+        "src/freeBonus/FreeBonusScene.js",
+        "src/freeBonus/GetFreeBonusLayer.js",
+        "src/freeBonus/VipReward.js",
+
+        "src/moneyTree/MoneyTreeScene.js",
+
+        "src/feedback/FeedbackScene.js",
+
+        "src/task/TaskScene.js",
+        "src/task/EverydayTaskLayer.js",
+        "src/task/SystemTaskLayer.js",
+
+        "src/util/Servers.js",
+        "src/util/Storage.js",
+
+        "src/player.js",
+        "src/listenServerProcess.js",
+        "src/card.js",
+        "src/popUp.js",
+        "src/popUpJiaZhuSelect.js",
+        "src/popUpBiPaiSelect.js",
+        "src/counterTimer.js",
+        "src/popUpSettingLayer.js",
+        "src/Player_Cards.js",
+        "src/popUpGameBackLayer.js",
+        "src/popUpChatLayer.js",
+        "src/popUpInteractionLayer.js",
+        "src/popUpRadioLayer.js",
+        "src/RankingScene.js",
+        "src/popUpRankingPersonalMessageLayer.js",
+        "src/popUpBuyDiamondSelectLayer.js",
+        "src/globalVariable_gwf.js",
+
+        "src/payJS.js"
+
+    ]
+}
